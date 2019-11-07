@@ -18,6 +18,8 @@
     }
     window.location.reload();
   }
+
+  if (window.Cypress) reset();
 </script>
 
 <style>
